@@ -1,0 +1,187 @@
+.first {
+  color: #FFF;
+  background-color: #000;
+  text-align: center;
+  background-image: url(../img/death-to-stock-medium6-dark-lg.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.first a {
+  color: #FFF;
+}
+
+.first a:hover {
+  color: #FFF;
+}
+
+.first a:active {
+  color: #FFF;
+}
+
+.first a:visited {
+  color: #FFF;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .first h1 {
+    font-weight: normal;
+    font-size: 64px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .first h2 {
+    font-weight: lighter;
+    font-size: 32px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .first h3 {
+    font-weight: normal;
+    font-size: 64px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .first h1 {
+    font-weight: normal;
+    font-size: 96px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    margin-top: 75px;
+    margin-bottom: 50px;
+  }
+
+  .first h2 {
+    font-weight: lighter;
+    font-size: 64px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .first h3 {
+    font-weight: normal;
+    font-size: 64px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+    margin-bottom: 75px;
+  }
+}
+
+.second {
+  color: #000;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.second a {
+  color: #000;
+}
+
+.second a:hover {
+  color: #000;
+}
+
+.second a:active {
+  color: #000;
+}
+
+.second a:visited {
+  color: #000;
+}
+
+.second h1 {
+  font-weight: normal;
+  font-size: 96px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.second h2 {
+  font-weight: normal;
+  font-size: 64px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.second h3 {
+  font-weight: lighter;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.second h4 {
+  font-weight: normal;
+  font-size: 64px;
+  margin-bottom: 75px;
+}
+
+.third {
+  color: #FFF;
+  background-color: #000;
+  text-align: center;
+}
+
+.third a {
+  color: #FFF;
+}
+
+.third a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.third a:active {
+  color: #FFF;
+}
+
+.third a:visited {
+  color: #FFF;
+}
+
+.third h1 {
+  font-weight: normal;
+  font-size: 96px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.third h2 {
+  font-weight: normal;
+  font-size: 64px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.third h3 {
+  font-weight: lighter;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+.fourth {
+  color: #000;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.fourth address {
+  margin-top: 125px;
+  font-weight: lighter;
+}
+
+.fourth p {
+  font-weight: lighter;
+}

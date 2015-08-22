@@ -1,0 +1,19 @@
+{
+  "name": "ts",
+  "version": "0.0.0",
+  "authors": [
+    "Matt Roberts <mattroberts297@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.4.0",
+    "bootstrap": "~3.3.5"
+  }
+}
