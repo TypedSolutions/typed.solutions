@@ -101,57 +101,112 @@
   }
 }
 
-.second {
+.light {
   color: #000;
   background-color: #FFF;
   text-align: center;
 }
 
-.second a {
+.light a {
   color: #000;
 }
 
-.second a:hover {
+.light a:hover {
   color: #000;
 }
 
-.second a:active {
+.light a:active {
   color: #000;
 }
 
-.second a:visited {
+.light a:visited {
   color: #000;
 }
 
-.second h1 {
-  font-weight: lighter;
-  font-size: 32px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.dark {
+  color: #FFF;
+  background-color: #000;
+  text-align: center;
 }
 
-.second h2 {
-  font-weight: normal;
-  font-size: 128px;
-  margin-top: 50px;
-  margin-bottom: 25px;
+.dark a {
+  color: #FFF;
 }
 
-.second h3 {
-  font-weight: normal;
-  font-size: 48px;
-  margin-top: 25px;
-  margin-bottom: 50px;
+.dark a:hover {
+  color: #FFF;
 }
 
-.second h4 {
-  font-weight: lighter;
-  font-size: 24px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.dark a:active {
+  color: #FFF;
 }
 
-.second .fa-angle-double-down {
+.dark a:visited {
+  color: #FFF;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .tools h1 {
+    font-weight: lighter;
+    font-size: 32px;
+    margin-top: 50px;
+  }
+
+  .tools h2 {
+    font-weight: normal;
+    font-size: 96px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+
+  .tools h3 {
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  .tools h4 {
+    font-weight: lighter;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .tools h1 {
+    font-weight: lighter;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .tools h2 {
+    font-weight: normal;
+    font-size: 128px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+
+  .tools h3 {
+    font-weight: normal;
+    font-size: 48px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  .tools h4 {
+    font-weight: lighter;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.tools .fa-angle-double-down {
   font-weight: normal;
   font-size: 64px;
   margin-bottom: 75px;
